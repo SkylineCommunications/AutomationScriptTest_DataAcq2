@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<server host="XFER/0201-01" address="10.13.40.13" address-backup="192.168.123.123" name="EM8/GM3-AB" version="2.11" 
+        mac-address="00:19:85:E4:82:C8" company="Geist" company-url="http://www.geistglobal.com" support-email="support@geistglobal.com"
+        support-phone="800.432.3219" console-id="em2" buzzer="0" tempunit="C" product-id="0" layout-rev="512" bootldr-rev="1">
+	<devices>
+		<device id="EM08001985E482C8" name="XFER/0201-01" type="em8_gm3_ab" available="1" index="0">
+			<field key="SOURCEA" value="6.79" niceName="Amps Source A" min="0" max="30" type="2"/>
+			<field key="SOURCEB" value="0.03" niceName="Amps Source B" min="0" max="30" type="2"/>
+			<field key="TOTAL" value="6.78" niceName="Amps Total" min="0" max="30" type="2"/>
+		</device>
+		<device id="EM08001985E482C9" name="XFER/0201-02" type="em8_gm3_ab" available="1" index="1">
+			<field key="SOURCEA" value="6.79" niceName="Amps Source A" min="0" max="30" type="2"/>
+			<field key="SOURCEB" value="0.03" niceName="Amps Source B" min="0" max="30" type="2"/>
+			<field key="TOTAL" value="6.78" niceName="Amps Total" min="0" max="30" type="2"/>
+		</device>
+	</devices>
+	<alarms>
+		<alarm device-id="EM08001985E482C8" field="SOURCEA" em-trip="0" em-warn="0" enabled="0" status="clear" cid="0"/>
+		<alarm device-id="EM08001985E482C8" field="SOURCEB" em-trip="0" em-warn="0" enabled="0" status="clear" cid="1"/>
+		<alarm device-id="EM08001985E482C8" field="TOTAL" em-trip="0" em-warn="0" enabled="0" status="clear" cid="2"/>
+	</alarms>
+</server>
