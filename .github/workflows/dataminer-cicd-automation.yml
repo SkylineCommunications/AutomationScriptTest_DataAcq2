@@ -16,7 +16,7 @@ on:
 jobs:
 
   CI:
-    uses: SkylineCommunications/_ReusableWorkflows/.github/workflows/Automation Master Workflow.yml@sqtrigger
+    uses: SkylineCommunications/_ReusableWorkflows/.github/workflows/Automation Master Workflow.yml@initialSonarAnalysis
     with:
       referenceName: ${{ github.ref_name }}
       runNumber: ${{ github.run_number }}
